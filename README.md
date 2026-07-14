@@ -1,36 +1,72 @@
-# Attendly
+<div align="center">
 
-**Attendly** is a lightweight, client-side employee attendance dashboard — clock in/out, track daily attendance, manage an employee directory, and review attendance trends, all in a single static web app with no backend required.
+# 🕒 Attendly
+### Employee Attendance Dashboard
 
-## ✨ Features
+A modern, clean, and responsive employee attendance dashboard designed to make daily clock-ins, employee management, and attendance reporting simple. The interface focuses on clarity, quick navigation, and a distraction-free workflow — all running entirely in the browser, no backend required.
 
-- **Dashboard** — live office clock, today's clock in/out timeline, weekly attendance chart, today's check-in progress, upcoming holiday reminder, and a monthly calendar.
-- **Employees** — add, edit, and delete employees; browse the team as searchable, filterable cards grouped by department.
-- **Attendance** — view and edit attendance for any date (not just today), with per-employee clock in/out and status (Present / Late / Absent / Leave).
-- **Reports** — 7-day attendance trend chart, per-employee attendance rate breakdown, and one-click Excel (.xlsx) export.
-- **Notifications** — a bell icon that surfaces upcoming holiday reminders and active leave requests.
-- **Persistent storage** — all data is saved to `localStorage`, so it survives page reloads with no server or database.
+<br>
 
-## 🛠️ Tech Stack
+[🌐 Live Demo](#)
+•
+[💻 Source Code](#)
 
-- HTML, CSS, and vanilla JavaScript (no framework)
-- [Chart.js](https://www.chartjs.org/) for data visualization
-- [SheetJS (xlsx)](https://sheetjs.com/) for Excel export
+<br>
 
-## 🚀 Getting Started
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 
-1. Clone or download this repository.
-2. Open `index.html` in your browser — that's it, no build step or server needed.
+</div>
 
-## 📁 Project Structure
+---
 
-```
-attendly/
-├── index.html   # App markup & structure
-├── style.css    # Styling
-└── script.js    # App logic (state, rendering, interactions)
+## ✨ Overview
+
+Attendly is a client-side employee attendance dashboard built to showcase daily clock-ins, employee records, and attendance trends through a clean, ticket-inspired interface. The project focuses on delivering an intuitive HR-style workflow — tracking who's present, late, absent, or on leave — while highlighting practical, everyday dashboard UI design.
+
+---
+
+## Highlights
+
+- 🕒 Live office clock with daily clock-in / clock-out
+- 👥 Employee directory — add, edit, delete, search & filter by department
+- 📋 Attendance log for any date, with editable status and per-employee clock in/out
+- 📊 Weekly attendance chart & 7-day attendance trend
+- 🔔 Notification bell for upcoming holidays and leave requests
+- ⬇️ One-click Excel (.xlsx) export of attendance reports
+- 📱 Responsive on desktop, tablet, and mobile
+- 💾 Data persists locally via `localStorage` — no server needed
+
+---
+
+## Tech Stack
+
+| Front-End | Libraries |
+|-----------|-----------|
+| HTML5 | Chart.js |
+| CSS3 | SheetJS (xlsx) |
+| JavaScript | — |
+
+---
+
+## Folder Structure
+
+```text
+📦 Attendly
+ ┣ 📜 index.html
+ ┣ 📜 script.js
+ ┣ 📜 style.css
+ ┗ 📜 README.md
 ```
 
 ---
 
-*Attendly is a front-end demo project and stores data locally in the browser — it is not intended for multi-user or production use as-is.*
+<div align="center">
+
+Made by **Nasheeka Azahra M.P**
+
+⭐ If you enjoyed this project, consider giving it a star.
+
+</div>
