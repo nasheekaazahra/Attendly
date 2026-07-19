@@ -7,7 +7,7 @@ A modern, clean, and responsive employee attendance dashboard designed to make d
 
 <br>
 
-[🌐 Live Demo](#)
+[🌐 Live Demo](https://nasheekaazahra.github.io/Attendly/)
 •
 [💻 Source Code](#)
 
